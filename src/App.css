@@ -1,9 +1,16 @@
+.page {
+	width: 100%;
+	height: 99.9vh;
+	background-color: #282c34;
+	border-top: #810e05 1px solid;
+}
+
 .navFormatting ul li {
 	text-align: center;
 	display: block;
-	margin: 0 auto;
-	margin-top: 9px;
+	margin: 8px;
 	color: inherit;
+	padding: 3px;
 }
 
 .navFormatting ul li a {
@@ -15,22 +22,15 @@
 }
 
 .divFormatting {
-	max-width: 500px;
-	margin: auto;
 	text-align: center;
-}
-
-.page {
-	width: 100vw;
-	height: 100vh;
-	background-color: #282c34;
 }
 
 .imageFormatting {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	height: 300px;
+	width: 300px;
 }
 
 .buttonFormatting {
@@ -57,4 +57,9 @@
 .buttonFormatting:active {
 	position: relative;
 	top: 1px;
+}
+
+.resourceArea h2 a {
+	text-decoration: none;
+	color: gray;
 }
