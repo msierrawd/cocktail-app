@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+.navFormatting ul li {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-top: 9px;
+	color: inherit;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navFormatting ul li a {
+	color: inherit;
+	text-decoration: none;
+	background-color: gray;
+	border-radius: 3px;
+	padding: 1.5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.divFormatting {
+	max-width: 500px;
+	margin: auto;
+	text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.page {
+	width: 100vw;
+	height: 100vh;
+	background-color: #282c34;
 }
 
-.App-link {
-  color: #61dafb;
+.imageFormatting {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttonFormatting {
+	background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color: #c62d1f;
+	border-radius: 10px;
+	border: 1px solid #d02718;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 17px;
+	padding: 11px 22px;
+	text-decoration: none;
+	text-shadow: -1px -2px 1px #810e05;
+	margin-top: 5px;
+}
+
+.buttonFormatting:hover {
+	background: linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color: #f24437;
+}
+
+.buttonFormatting:active {
+	position: relative;
+	top: 1px;
 }
