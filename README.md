@@ -1,2 +1,3 @@
 # cocktail-app
-Suggests a random cocktail
+Need inspiration for a cocktail?
+This app will give you a random cocktail with each click of the button
